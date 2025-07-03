@@ -1,0 +1,342 @@
+/* common css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper{
+    width: 100%;
+
+}
+@font-face {
+  font-family: "opensans_reg";
+  src: url(../Fonts/opensans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "oswald_reg";
+  src: url(../Fonts/oswald/static/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: "oswald_med";
+  src: url(../Fonts/oswald/static/Oswald-Medium.ttf);
+}
+@font-face {
+  font-family: "oswald_bold";
+  src: url(../Fonts/oswald/static/Oswald-Bold.ttf);
+}
+
+/* font import area */
+
+.full_width {
+  width: 100%;
+  background:  #5bc5f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 1200px;
+  height: 50px;
+  background: #5bc5f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head_p {
+  font-family: "oswald_reg";
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Social icon header */
+.social_area a {
+  margin: 20px;
+}
+.social_area a i {
+  color: #fff;
+  font-size: 20px;
+  transition: all linear 0.3s;
+}
+.social_area a:hover i {
+  color: grey;
+}
+/* menu area starts */
+.menu_bg{
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_bg .menu_content{
+    width: 1200px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_bg .menu_content .menu_items a{
+    padding: 10px;
+    font-family: oswald_med;
+    font-size: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: grey;
+    transition: all linear 0.4s;
+}
+.menu_bg .menu_content .menu_items a:hover{
+    color: #5bc5f4 ;
+}
+.menu_bg .menu_content .menu_items .active{
+    color: #5bc5f4;
+}
+/* menu area ends */
+
+
+/* banner area starts */
+.banner_bg{
+    background: url(../Images/banner.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner_bg .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(75, 74, 74, 0.568);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_area{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.banner_content h1{
+    padding-left: 275px;
+    padding-top: 50px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: oswald_bold;
+}
+.banner_content .first_ch{
+    padding-left:145px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: oswald_bold;
+    padding-bottom: 20px;
+}
+.banner_content p{
+
+    font-size: 18px;
+    text-transform:none ;
+    color: #fff;
+    font-family: oswald_reg;
+    line-height: 30px;
+    font-weight: 300;
+    padding-left: 29px;
+}
+.banner_buttons{
+    padding-top: 50px;
+    padding-right:10px ;
+}
+.banner_buttons a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding:010px 20px;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    transition: all linear 0.4s;
+}
+.banner_buttons .active_b{
+    margin: 0 20px;
+    border: 1px solid #5bc5f4;
+    background:  #5bc5f4;
+}
+.banner_buttons a:hover{
+    background:  #5bc5f4;
+     border: 1px solid  #5bc5f4;
+}
+
+/* banner area ends */
+/* about area starts */
+.about_bg{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_bg .about_area{
+    width: 1200px;
+    height: 100%;
+}
+.about_bg .about_area .about_head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.about_bg .about_area .about_head h1{
+    line-height: 100px;
+    font-size: 24px;
+    font-family: oswald_med;
+    color:#353535;
+    text-transform: uppercase;
+}
+
+.about_bg .about_area .about_content{
+        width: 100%;
+    height: 400px;
+    display: flex;
+}
+.about_bg .about_area .about_content .about_img{
+    width: 40%;
+    height: 100%;
+}
+.about_bg .about_area .about_content .about_img img{
+    width: 100%;
+}
+.about_bg .about_area .about_content .about_para{
+    width: 60%;
+    height: 100%;
+    padding-top: 50px;
+
+}
+.about_bg .about_area .about_content .about_para p{
+        font-family: 'opensans_reg';
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 10px;
+    color: #555555;
+    margin-top: 35px;
+}
+/* service area starts */
+.service_bg{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.service_bg .service_container{
+    width: 1200px;
+    height: 100%;
+
+}
+.service_bg .service_container .service_head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service_bg .service_container .service_head h2{
+     line-height: 100px;
+    font-family: oswald_med;
+    color:#353535;
+    text-transform: uppercase;
+}
+.service_bg .service_container .service_details{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.service_bg .service_container .service_details .service_item{
+    width: 28%;
+    height: 200px;
+    background-color: #f1f1f1;
+    position: relative;
+    transition: all linear 0.4s;
+}
+.service_bg .service_container .service_details .service_item .circle{
+    width: 70px;
+    height: 70px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -9%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:1 ;
+     transition: all linear 0.4s;
+}
+.service_bg .service_container .service_details .service_item::before{
+    content: '';
+    width: 82px;
+    height: 82px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+     top: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service_bg .service_container .service_details .service_item .circle::after{
+    content: '';
+    width: 76px;
+    height: 76px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.4s;
+}
+.service_bg .service_container .service_details .service_item h3{
+    font-family: oswald_med;
+    color: #000;
+    text-align: center;
+    padding-top: 60px;
+}
+.service_bg .service_container .service_details .service_item p{
+     font-size: 13px;
+    color: #555555;
+    font-family: 'opensans_reg';
+    line-height: 24px;
+    padding: 0 10px;
+    text-align: center;
+}
+.service_bg .service_container .service_details .service_item:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.service_bg .service_container .service_details .service_item:hover .circle{
+    background: #5bc5f4;
+}
+.service_bg .service_container .service_details .service_item:hover .circle::after{
+    border: 1px solid #5bc5f4;
+}
+.service_bg .service_container .service_details .active_service{
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+         cursor: pointer;
+}
+.service_bg .service_container .service_details .active_service .circle{
+    background: #5bc5f4;
+}
+.service_bg .service_container .service_details .active_service .circle::after{
+    border: 1px solid #5bc5f4;
+}
