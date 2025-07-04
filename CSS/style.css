@@ -500,7 +500,7 @@ h2 {
 .team_bg .team_container .team_content .team_card .team_img .overlay_team {
   width: 40%;
   height: 100%;
-  background: #dad5d5;
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: -100%;
   right: 0;
