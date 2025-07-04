@@ -14,6 +14,10 @@ body{
     width: 100%;
 
 }
+
+.mr-40 {
+  margin-right: 50px;
+}
 @font-face {
   font-family: "opensans_reg";
   src: url(../Fonts/opensans/OpenSans-Regular.ttf);
@@ -340,3 +344,114 @@ body{
 .service_bg .service_container .service_details .active_service .circle::after{
     border: 1px solid #5bc5f4;
 }
+
+/* portfolio area */
+.port_bg{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port_bg .port_cont{
+    width: 1200px;
+    height: 100%;
+}
+.port_bg .port_cont .port_head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port_bg .port_cont .port_head h2{
+     line-height: 100px;
+    font-family: oswald_med;
+    color:#353535;
+    text-transform: uppercase;
+}
+.port_bg .port_cont .port_gallery{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.port_bg .port_cont .port_gallery .port_im1{
+    width: 220px;
+    height: 220px;
+    margin-left: 50px;
+}
+.port_bg .port_cont .port_gallery .port_im2{
+    width: 220px;
+    height: 300px;
+}
+.port_bg .port_cont .port_gallery .port_im3{
+    width: 220px;
+    height: 220px;
+}
+.port_bg .port_cont .port_gallery .port_im4{
+    width: 220px;
+    height: 300px;
+}
+.port_bg .port_cont .port_gallery .port_im5{
+    width: 220px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+.port_bg .port_cont .port_gallery .port_im6{
+    width: 220px;
+    height: 220px;
+    margin-top: -20px;
+}
+.port_bg .port_cont .port_gallery .port_im7{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    top: -100px;
+    left: 0;
+}
+.port_bg .port_cont .port_gallery .port_im8{
+    width: 220px;
+    height: 220px;
+    margin-top: -20px;
+}
+.port_bg .port_cont .port_gallery .for_overlay{
+    position: relative;
+    overflow: hidden;
+}
+.port_bg .port_cont .port_gallery .for_overlay .overlay_img{
+    width: 100%;
+    height: 100%;
+     background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: -100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.4s;
+}
+.port_bg .port_cont .port_gallery .for_overlay .overlay_img .over_l{
+    width: 50px;
+    height: 50px;
+    background: #5bc5f4;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port_bg .port_cont .port_gallery .for_overlay .overlay_img .over_l a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.port_bg .port_cont .port_gallery .for_overlay:hover .overlay_img{
+    left: 0;
+    cursor: pointer;
+}
+/* portfolio area ends*/
+/* team area starts */
+/* team area ends */
